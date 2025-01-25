@@ -66,26 +66,26 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━ ALONE MD ━━┓
+┏━━ Cyberdex MD ━━┓
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
 ┃
 ┣━Alone md new vision 𒈒━➠
-┗━━━𒈒by Topu Tech𒈒━━┛\n\n`;
+┗━━━𒈒by Protech Foundation 𒈒━━┛\n\n`;
 
 
     
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
-┣༆Alone md  
-┣༆by Topu Tech
+┣༆Cyberdex md  
+┣༆by Protech Foundation 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 
 
-Alone md cmds𒈒
+Cyberdex md cmds𒈒
 `;
 
 
@@ -101,7 +101,7 @@ Alone md cmds𒈒
 
         }
 
-        menuMsg += `
+        menuMsg += 
 ┗━━━━━━━━━━━━━━┛\n`
 
     }
@@ -112,13 +112,13 @@ Alone md cmds𒈒
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏Alone md bot 
-┣❏by Topu Tech 
+️┣❏Cyberdex md bot 
+┣❏by Protech Foundation 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃powered by Topu Tech 
+┃powered by ProTech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +134,7 @@ Alone md cmds𒈒
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ALONE-MD*, déveloper Toputech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *CyberDex-MD*, déveloper Toputech" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -154,7 +154,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *CyberDex-bot*, déveloper cod3uchiha" }, { quoted: ms });
 
     }
 
