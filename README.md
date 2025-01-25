@@ -14,7 +14,7 @@
 <p align="center"> Introducing ALONE Md, A Simple WhatsApp user BOT, Created by topu Tech.
 </p>
 
-  <a href="https://ibb.co/N6NMDtn"><img src="[https://files.catbox.moe/4tu6s0.jpg](https://files.catbox.moe/xk46jg.jpg)" alt="01" border="0" /></a>                     
+  <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/xk46jg.jpg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
  ## 🚀 `Bot Features`
 | Feature                          | Description                                             | Available    | Version    |
